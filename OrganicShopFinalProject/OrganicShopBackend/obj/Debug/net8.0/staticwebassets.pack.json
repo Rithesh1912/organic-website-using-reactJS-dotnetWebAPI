@@ -1,0 +1,377 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OrganicShopBackend.bundle.scp.css",
+      "PackagePath": "staticwebassets\\OrganicShopBackend.1yrsse68tk.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\40cd802e-bfb4-4df5-9170-ec8ba849ba7f_banana.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\40cd802e-bfb4-4df5-9170-ec8ba849ba7f_banana.jpg"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\7a656a68-b97d-4bec-a67e-ab676630591c_water.png",
+      "PackagePath": "staticwebassets\\images\\products\\7a656a68-b97d-4bec-a67e-ab676630591c_water.png"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\7efdf070-bb03-4813-a91b-d962ca1536a3_banana.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\7efdf070-bb03-4813-a91b-d962ca1536a3_banana.jpg"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\88ad63a3-a4ed-4f16-aa36-de16dcb87298_watermelon.jpeg",
+      "PackagePath": "staticwebassets\\images\\products\\88ad63a3-a4ed-4f16-aa36-de16dcb87298_watermelon.jpeg"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\apple.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\apple.jpg"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\banana.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\banana.jpg"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\beetroot.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\beetroot.jpg"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\carrot.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\carrot.jpg"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\chicken.png",
+      "PackagePath": "staticwebassets\\images\\products\\chicken.png"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\cookingoil.png",
+      "PackagePath": "staticwebassets\\images\\products\\cookingoil.png"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\cucumber.png",
+      "PackagePath": "staticwebassets\\images\\products\\cucumber.png"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\e21a6e9e-667c-4943-8ffe-342d7cf745a7_banana.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\e21a6e9e-667c-4943-8ffe-342d7cf745a7_banana.jpg"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\egg.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\egg.jpg"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\fish.png",
+      "PackagePath": "staticwebassets\\images\\products\\fish.png"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\greenbell.png",
+      "PackagePath": "staticwebassets\\images\\products\\greenbell.png"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\greenchilli.png",
+      "PackagePath": "staticwebassets\\images\\products\\greenchilli.png"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\kiwi.png",
+      "PackagePath": "staticwebassets\\images\\products\\kiwi.png"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\lemon.png",
+      "PackagePath": "staticwebassets\\images\\products\\lemon.png"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\milk.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\milk.jpg"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\mulberry.png",
+      "PackagePath": "staticwebassets\\images\\products\\mulberry.png"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\onion.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\onion.jpg"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\potato.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\potato.jpg"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\proteinpowder.png",
+      "PackagePath": "staticwebassets\\images\\products\\proteinpowder.png"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\rice.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\rice.jpg"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\strawberry.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\strawberry.jpg"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\tomato.png",
+      "PackagePath": "staticwebassets\\images\\products\\tomato.png"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\images\\products\\water.png",
+      "PackagePath": "staticwebassets\\images\\products\\water.png"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\BackendOrganicShop\\OrganicShopBackend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OrganicShopBackend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OrganicShopBackend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.OrganicShopBackend.props",
+      "PackagePath": "build\\OrganicShopBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.OrganicShopBackend.props",
+      "PackagePath": "buildMultiTargeting\\OrganicShopBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.OrganicShopBackend.props",
+      "PackagePath": "buildTransitive\\OrganicShopBackend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
