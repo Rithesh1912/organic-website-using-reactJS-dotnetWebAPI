@@ -1,0 +1,249 @@
+/* General Styles
+.Banner_container {
+  position: relative;
+  text-align: center;
+}
+
+.banner_img {
+  width: 100%;
+  height: auto;
+}
+
+.banner_slogan {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.about_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.img-container,
+.text-container {
+  flex: 1;
+  min-width: 300px; /* Ensure it doesn't get too small */
+  padding: 20px;
+  text-align: center;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-container h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  color: #525c60cf;
+  font-weight: 400;
+}
+
+.about-tag {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.about-tag img {
+  margin-right: 10px;
+}
+
+.section {
+  background-color: var(--color-fifth);
+  padding: 40px 20px;
+}
+
+.offer-section {
+  background-color: #274c5b;
+  padding: 40px 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.product-item {
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.product-title {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.footer {
+  background-color: white;
+  color: var(--color-primary);
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-text {
+  text-align: center;
+  border-top: 1px solid #d4d4d4;
+  font-size: 0.9rem;
+  padding: 20px 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .about_container {
+    flex-direction: column;
+  }
+
+  .img-container,
+  .text-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner_slogan {
+    font-size: 1.5rem;
+  }
+
+  .footer-column {
+    flex-basis: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner_slogan h1 {
+    font-size: 1.2rem;
+  }
+
+  .text-container h3 {
+    font-size: 1.5rem;
+  }
+
+  .about-tag {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-tag img {
+    margin-bottom: 10px;
+  }
+}
+
+.heading {
+  display: flex;
+  align-items: center; /* Vertically center the image and text */
+  gap: 10px; /* Add spacing between image and text */
+  font-size: 25px;
+}
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+  .heading {
+    flex-direction: column; /* Stack image and text vertically on small screens */
+    text-align: center; /* Center-align text */
+  }
+
+  .heading img {
+    margin-bottom: 10px; /* Add spacing below the image */
+  }
+
+  .about-tag p {
+    margin-left: 0 !important; /* Remove left margin for paragraphs on small screens */
+  }
+}
+
+.icon-container {
+  padding: 10px 15px;
+  border-radius: 50%;
+  margin: 4px;
+  background-color: #eff6f1;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.icon-container:hover {
+  background-color: #274c5b; /* Change background color on hover */
+  transform: scale(1.1); /* Slightly enlarge the icon */
+}
+
+.icon-container:hover .fa-icon {
+  color: white; /* Change icon color on hover */
+}
+.footer-links {
+  display: flex;
+  gap: 15px; /* Add space between the links */
+}
+
+.footer-link-item {
+  display: inline-block;
+}
+.contact-item {
+  margin-bottom: 10px;
+}
+/* Keyframe animation for fade-in and slide-up */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* General fade-in effect */
+.fadeInUp {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Class for fade-in text animation */
+.fade-in-text {
+  animation: fadeInUp 1.5s ease-out forwards;
+}
+
+/* Adding delay for the second paragraph or text in the section */
+#storeBackground {
+  animation-delay: 0.5s;
+}
+
+#missionStatement {
+  animation-delay: 0.5s;
+}
+
+/* Hover effect on text */
+.text-center:hover {
+  color: #3a7d44;
+  cursor: pointer;
+}
+
+/* Hover effect for the section background */
+section:hover {
+  background-color: #eaf1e4;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* For smooth scrolling when the page is long */
+html {
+  scroll-behavior: smooth;
+} */

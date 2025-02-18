@@ -1,0 +1,181 @@
+:root {
+    --primary-color: #007bff;       /* Main Color */
+    --primary-dark: #0056b3;        /* Darker shade of primary */
+    --error-color: #dc3545;         /* Error color */
+    --success-color: #28a745;       /* Success color */
+    --background-color: #f9f9f9;    /* Background color */
+}
+
+/* Ensure the body covers the full height */
+body {
+    background-color: var(--background-color);
+    min-height: 100vh; /* Ensures body takes full height */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Adjust the auth-container */
+.auth-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-grow: 1; /* Allow the form to take up available space */
+}
+
+/* Hover Effect */
+.auth-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Title styling */
+.auth-container h2 {
+    margin-bottom: 25px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Input fields with better padding and border-radius */
+.auth-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+/* Updated focus styles */
+.auth-container input:focus {
+    border-color: #FFA500; /* Orange border color */
+    box-shadow: 0 0 8px rgba(255, 165, 0, 0.5); /* Light orange glow */
+}
+
+.password-field {
+    position: relative;
+    width: 100%;
+}
+
+.password-field input {
+    width: 100%;
+    padding-right: 45px; /* Padding for the icon */
+}
+
+.password-field i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+
+.password-field i:hover {
+    color: var(--primary-dark);
+}
+
+/* Error input styling */
+.auth-container input.is-invalid {
+    border-color: var(--error-color) !important;
+    box-shadow: 0 0 5px rgba(220, 53, 69, 0.6) !important;
+}
+
+.auth-container .invalid-feedback {
+    font-size: 14px;
+    color: var(--error-color);
+    text-align: left;
+    margin-top: -5px;
+    padding-left: 5px;
+}
+
+/* Button Styles */
+.auth-container button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.auth-container button:hover {
+    background-color: var(--primary-dark);
+    transform: translateY(-2px) scale(1.02);
+}
+
+.auth-container .signup-link {
+    margin-top: 15px;
+}
+
+.auth-container .signup-link button {
+    background-color: var(--success-color);
+    border: none;
+    box-shadow: 0 4px 8px rgba(40, 167, 69, 0.2);
+    transition: all 0.3s ease;
+}
+
+.auth-container .signup-link button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+/* Server message styling */
+.server-message {
+    color: red; /* Set text color to red */
+    margin-top: 10px; /* Add some spacing above the message */
+}
+
+/* Helper text for error messages */
+.text-danger {
+    font-size: 14px;
+    margin-top: -5px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+/* Requirements for password */
+.password-requirements {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.password-requirements li.invalid {
+    color: red;
+}
+
+.password-requirements li.satisfied {
+    color: green;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .auth-container {
+        margin: 30px auto;
+        padding: 20px;
+    }
+
+    .auth-container input,
+    .auth-container button {
+        font-size: 14px;
+    }
+
+    .password-field i {
+        font-size: 18px;
+    }
+}

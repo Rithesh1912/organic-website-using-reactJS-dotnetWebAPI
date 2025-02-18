@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-btn {
+  margin-left: 15px;
+  padding: 8px 16px;
+  
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: #dfe4e9;
+}
+
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .nav-btn {
+    margin-top: 10px;
+  }
+}
+/* Change the background color of the dropdown menu */
+.dropdown-menu {
+background-color: white !important;  /* Set the background to black */
+}
+
+/* Optional: Change text color to white (if needed) */
+.dropdown-item {
+color: black !important; /* Set text color to white */
+}
+
+/* Optional: Change the background color of the items when hovered */
+.dropdown-item:hover {
+background-color: #6b81ca !important; /* Add a hover color for the items */
+}

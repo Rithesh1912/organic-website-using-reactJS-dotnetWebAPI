@@ -1,0 +1,198 @@
+/* General Styling for all cards */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  background-color: #fff; /* Ensure the background is white for all cards */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Hover Effect for all cards (service, product, review, brand) */
+.card:hover {
+  transform: scale(1.05); /* Scale up the card */
+  z-index: 10; /* Bring the card to the front */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+/* Product Card Styles */
+.product-card {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.product-card img {
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+}
+
+/* Review Card Styles */
+.review-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f5e1; /* Light background for review cards */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Initial shadow */
+  text-align: center;
+  min-height: 300px; /* Ensure minimum height for all review cards */
+  height: 100%; /* Allow review cards to stretch equally */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for Review cards */
+.review-card:hover {
+  transform: scale(1.05); /* Scale on hover */
+  z-index: 10; /* Bring the image to the front */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
+
+/* Ensure the review image is circular */
+.review-img img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%; /* Circular images */
+}
+
+/* Styling for the name and review text */
+.review-card h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.review-card p {
+  font-size: 1rem;
+  font-style: italic;
+  margin: 10px 0;
+  font-weight: 300;
+  color: #777;
+}
+
+/* Style the stars */
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-flex .fa-star {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+/* Service Card Styles */
+.service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333; /* Dark background for service cards */
+  color: white; /* Text color white for visibility */
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  text-align: center;
+  min-height: 180px; /* Ensure each service card has a minimum height */
+  height: 100%; /* Allow service cards to stretch equally */
+  opacity: 1; /* Ensure visibility */
+  animation: fadeIn 0.5s forwards;
+  animation-delay: var(--animation-delay);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for Service cards */
+.service-card:hover {
+  transform: scale(1.05); /* Scale on hover */
+  z-index: 10; /* Bring the image to the front */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
+
+/* Animation for service cards */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* To apply sequential delay to each service card */
+.service-container .service-card:nth-child(1) {
+  --animation-delay: 0.2s; /* First card appears quickly */
+}
+
+.service-container .service-card:nth-child(2) {
+  --animation-delay: 0.4s; /* Second card appears after 0.4s */
+}
+
+.service-container .service-card:nth-child(3) {
+  --animation-delay: 0.6s; /* Third card appears after 0.6s */
+}
+
+.service-container .service-card:nth-child(4) {
+  --animation-delay: 0.8s; /* Fourth card appears after 0.8s */
+}
+
+/* Brand Card Styles */
+.brand-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Circular brand images */
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+/* Hover effect for brand images */
+.brand-img:hover {
+  transform: scale(1.05); /* Scale on hover */
+  z-index: 10; /* Bring the image to the front */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .service-container, .review-container {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .product-card, .review-card, .service-card, .brand-img {
+    margin-bottom: 20px; /* Space out the cards for better readability */
+  }
+}
+
+/* Ensuring all cards in the row have the same height */
+@media (min-width: 768px) { /* Applies to tablets and larger screens */
+  .service-container {
+    display: flex;
+  }
+
+  .service-card {
+    height: 100%; /* Ensure service card fills its container */
+  }
+
+  .review-card {
+    min-height: 300px; /* Ensure review cards have a consistent height */
+  }
+}
+
+@media (min-width: 0px) and (max-width: 426px) { /* Applies to mobile screens */
+  .service-container {
+    display: flex;
+    flex-direction: column; /* Stack the service cards vertically */
+  }
+
+  .service-card {
+    margin: auto;
+    width: 50%; /* Ensure service cards fill their container */
+    margin-bottom: 10px;
+  }
+}

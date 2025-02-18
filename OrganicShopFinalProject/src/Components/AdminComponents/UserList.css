@@ -1,0 +1,27 @@
+/* UserList.css */
+.custom-swal-popup {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-swal-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .custom-swal-confirm-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: #3085d6;
+    border: none;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-swal-confirm-button:hover {
+    background-color: #1c6aa9;
+  }
