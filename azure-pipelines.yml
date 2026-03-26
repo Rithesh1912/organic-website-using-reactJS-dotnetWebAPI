@@ -8,31 +8,11 @@ steps:
 
 - checkout: self
 
-# Debug (optional but useful)
 - script: |
-    echo "Folders:"
+    echo "===== CURRENT DIRECTORY ====="
+    pwd
+    echo "===== ROOT FILES ====="
     ls
-  displayName: 'Check root folders'
-
-- task: NodeTool@0
-  inputs:
-    versionSpec: '20.x'
-
-# ✅ Correct path
-- script: |
-    cd organic-website-using-reactJS-dotnetWebAPI/OrganicShopFinalProject
-    npm install
-  displayName: 'Install dependencies'
-
-# ✅ Build
-- script: |
-    cd organic-website-using-reactJS-dotnetWebAPI/OrganicShopFinalProject
-    npm run build
-  displayName: 'Build React app'
-
-# ✅ Publish
-- task: PublishBuildArtifacts@1
-  inputs:
-    pathToPublish: 'organic-website-using-reactJS-dotnetWebAPI/OrganicShopFinalProject/build'
-    artifactName: 'react-build'
-  displayName: 'Publish build artifacts'
+    echo "===== FULL STRUCTURE ====="
+    ls -R
+  displayName: 'DEBUG - Show folder structure'
