@@ -27,3 +27,7 @@ steps:
     pathToPublish: 'OrganicShopFinalProject/build'
     artifactName: 'react-build'
   displayName: 'Publish build artifacts'
+- task: NodeTool@0
+  inputs:
+    versionSource: 'spec'
+    versionSpec: '20.x'
