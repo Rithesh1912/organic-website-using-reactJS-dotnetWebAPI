@@ -10,15 +10,10 @@ module.exports = function override(config, env) {
     process: require.resolve('process'), 
   };
 
-  config.resolve.alias = {
-    ...(config.resolve.alias || {}),
-    'process/browser': require.resolve('process/browser'), 
-  };
-
   config.plugins = [
     ...(config.plugins || []),
     new webpack.ProvidePlugin({
-      process: 'process/browser',
+      process: 'process',   
       Buffer: ['buffer', 'Buffer'],
     }),
   ];
