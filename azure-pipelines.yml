@@ -6,38 +6,33 @@ pool:
 
 steps:
 
-# ✅ FIRST STEP (VERY IMPORTANT)
 - checkout: self
 
 # Debug (optional but useful)
 - script: |
-    echo "Current directory:"
-    pwd
-    echo "Files:"
+    echo "Folders:"
     ls
-  displayName: 'Check files'
+  displayName: 'Check root folders'
 
-# Install Node
 - task: NodeTool@0
   inputs:
     versionSpec: '20.x'
-  displayName: 'Install Node.js'
 
-# Install dependencies
+# ✅ Correct path
 - script: |
-    cd OrganicShopFinalProject
+    cd organic-website-using-reactJS-dotnetWebAPI/OrganicShopFinalProject
     npm install
   displayName: 'Install dependencies'
 
-# Build
+# ✅ Build
 - script: |
-    cd OrganicShopFinalProject
+    cd organic-website-using-reactJS-dotnetWebAPI/OrganicShopFinalProject
     npm run build
   displayName: 'Build React app'
 
-# Publish
+# ✅ Publish
 - task: PublishBuildArtifacts@1
   inputs:
-    pathToPublish: 'OrganicShopFinalProject/build'
+    pathToPublish: 'organic-website-using-reactJS-dotnetWebAPI/OrganicShopFinalProject/build'
     artifactName: 'react-build'
   displayName: 'Publish build artifacts'
