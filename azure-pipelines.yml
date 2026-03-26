@@ -11,19 +11,19 @@ steps:
     versionSpec: '20.x'
   displayName: 'Install Node.js'
 
-# 👇 MOVE INTO FRONTEND FOLDER
-- script: |
-    cd organicfrontend
-    npm install
+# Install dependencies
+- script: npm install
+  workingDirectory: OrganicShopFinalProject
   displayName: 'Install dependencies'
 
-- script: |
-    cd organicfrontend
-    npm run build
+# Build React app
+- script: npm run build
+  workingDirectory: OrganicShopFinalProject
   displayName: 'Build React app'
 
+# Publish build folder
 - task: PublishBuildArtifacts@1
   inputs:
-    pathToPublish: 'frontend/build'
+    pathToPublish: 'OrganicShopFinalProject/build'
     artifactName: 'react-build'
   displayName: 'Publish build artifacts'
