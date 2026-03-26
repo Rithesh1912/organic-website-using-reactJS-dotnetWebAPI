@@ -6,35 +6,27 @@ pool:
 
 steps:
 
-# ✅ Force checkout correct branch
 - checkout: self
-  clean: true
-  fetchDepth: 0
 
-# Debug (keep this for now)
 - script: |
     echo "FILES:"
     ls -R
   displayName: 'Check files'
 
-# Install Node
 - task: NodeTool@0
   inputs:
     versionSpec: '20.x'
 
-# Install dependencies
 - script: |
     cd OrganicShopFinalProject
     npm install
   displayName: 'Install dependencies'
 
-# Build
 - script: |
     cd OrganicShopFinalProject
     npm run build
   displayName: 'Build React app'
 
-# Publish
 - task: PublishBuildArtifacts@1
   inputs:
     pathToPublish: 'OrganicShopFinalProject/build'
