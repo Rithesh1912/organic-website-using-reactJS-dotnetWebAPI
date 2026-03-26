@@ -1,0 +1,34 @@
+trigger:
+- organicfrontend
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+
+- checkout: self
+
+- script: |
+    echo "FILES:"
+    ls -R
+  displayName: 'Check files'
+
+- task: NodeTool@0
+  inputs:
+    versionSpec: '20.x'
+
+- script: |
+    cd organic-website-using-reactJS-dotnetWebAPI/OrganicShopFinalProject
+    npm install
+  displayName: 'Install dependencies'
+
+- script: |
+    cd organic-website-using-reactJS-dotnetWebAPI/OrganicShopFinalProject
+    npm run build
+  displayName: 'Build React app'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathToPublish: 'OrganicShopFinalProject/build'
+    artifactName: 'react-build'
+  displayName: 'Publish build artifacts'
