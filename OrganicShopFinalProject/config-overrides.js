@@ -7,7 +7,12 @@ module.exports = function override(config, env) {
     stream: require.resolve('stream-browserify'),
     zlib: require.resolve('browserify-zlib'),
     buffer: require.resolve('buffer'),
-    process: require.resolve('process'),
+    process: require.resolve('process'), 
+  };
+
+  config.resolve.alias = {
+    ...(config.resolve.alias || {}),
+    'process/browser': require.resolve('process/browser'), 
   };
 
   config.plugins = [
