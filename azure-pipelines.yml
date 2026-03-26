@@ -6,22 +6,22 @@ pool:
 
 steps:
 
+# ✅ VERY IMPORTANT (this fixes your issue)
+- checkout: self
+
 - task: NodeTool@0
   inputs:
     versionSpec: '20.x'
   displayName: 'Install Node.js'
 
-# Install dependencies
 - script: npm install
   workingDirectory: OrganicShopFinalProject
   displayName: 'Install dependencies'
 
-# Build React app
 - script: npm run build
   workingDirectory: OrganicShopFinalProject
   displayName: 'Build React app'
 
-# Publish build folder
 - task: PublishBuildArtifacts@1
   inputs:
     pathToPublish: 'OrganicShopFinalProject/build'
