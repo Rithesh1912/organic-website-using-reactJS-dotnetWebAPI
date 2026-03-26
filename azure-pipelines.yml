@@ -6,23 +6,24 @@ pool:
 
 steps:
 
-# 1. Install Node.js
 - task: NodeTool@0
   inputs:
-    versionSpec: '18.x'
+    versionSpec: '20.x'
   displayName: 'Install Node.js'
 
-# 2. Install dependencies
-- script: npm install
+# 👇 MOVE INTO FRONTEND FOLDER
+- script: |
+    cd organicfrontend
+    npm install
   displayName: 'Install dependencies'
 
-# 3. Build React app (IMPORTANT: uses react-app-rewired)
-- script: npm run build
+- script: |
+    cd organicfrontend
+    npm run build
   displayName: 'Build React app'
 
-# 4. Publish build folder
 - task: PublishBuildArtifacts@1
   inputs:
-    pathToPublish: 'build'
+    pathToPublish: 'frontend/build'
     artifactName: 'react-build'
   displayName: 'Publish build artifacts'
