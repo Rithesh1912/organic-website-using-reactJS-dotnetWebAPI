@@ -5,7 +5,6 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-
 - checkout: self
 
 - script: |
@@ -16,6 +15,7 @@ steps:
 - task: NodeTool@0
   inputs:
     versionSpec: '20.x'
+  displayName: 'Install Node.js'
 
 - script: |
     cd OrganicShopFinalProject
