@@ -6,28 +6,38 @@ pool:
 
 steps:
 
-# ✅ VERY IMPORTANT (this fixes your issue)
+# ✅ FIRST STEP (VERY IMPORTANT)
 - checkout: self
 
+# Debug (optional but useful)
+- script: |
+    echo "Current directory:"
+    pwd
+    echo "Files:"
+    ls
+  displayName: 'Check files'
+
+# Install Node
 - task: NodeTool@0
   inputs:
     versionSpec: '20.x'
   displayName: 'Install Node.js'
 
-- script: npm install
-  workingDirectory: ./OrganicShopFinalProject
+# Install dependencies
+- script: |
+    cd OrganicShopFinalProject
+    npm install
   displayName: 'Install dependencies'
 
-- script: npm run build
-  workingDirectory: ./OrganicShopFinalProject
+# Build
+- script: |
+    cd OrganicShopFinalProject
+    npm run build
   displayName: 'Build React app'
 
+# Publish
 - task: PublishBuildArtifacts@1
   inputs:
     pathToPublish: 'OrganicShopFinalProject/build'
     artifactName: 'react-build'
   displayName: 'Publish build artifacts'
-- task: NodeTool@0
-  inputs:
-    versionSource: 'spec'
-    versionSpec: '20.x'
